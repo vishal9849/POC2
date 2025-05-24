@@ -9,11 +9,6 @@ from openai import AzureOpenAI # Use AzureOpenAI for Azure-specific features
 # AZURE_OPENAI_API_VERSION = "2024-02-15"  # Check your deployment for the correct API version
 # AZURE_OPENAI_MODEL_NAME = "your-deployment-name" # This is your deployment name, not the model name like 'gpt-4'
 
-AZURE_OPENAI_ENDPOINT="https://anilk-maqg6o7m-eastus2.cognitiveservices.azure.com/"
-AZURE_OPENAI_MODEL_NAME="gpt-4"
-AZURE_OPENAI_API_KEY="7AOJWoLBYXQjchlS1pmG3EzPjJASQF0xCaBjXthpTSXMBW4GQXPLJQQJ99BEACHYHv6XJ3w3AAAAACOGuXgs"
-AZURE_OPENAI_API_VERSION="2024-12-01-preview"  # Use 2025-01-01-preview if errors occurs
-AZURE_OPENAI_API_TYPE="azure"
 
 # Initialize the Azure OpenAI client
 client = AzureOpenAI(
